@@ -155,7 +155,7 @@ def checkBlueColor(imgb64):
     #find blue contours
     blue=cv2.dilate(blue,kernal)
     res1=cv2.bitwise_and(img, img, mask = blue)
-    (_,contours,hierarchy)=cv2.findContours(blue,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+    contours,hierarch=cv2.findContours(blue,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
     
     count=0
     ImgBlueStat="no"
