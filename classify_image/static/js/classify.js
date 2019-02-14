@@ -151,7 +151,7 @@ loadStats = function(jsonData)
 				$("#stat-table").append(objMarkup);
 				
 			}
-			if((percent>=70||percent==62) && pcount==0)
+			if((percent>=70||percent==67) && pcount==0)
 			{
 				pcount=1;
 				var bottleMarkup=`
@@ -162,7 +162,7 @@ loadStats = function(jsonData)
 					<div class="col s6"><h5 style="
 					line-height: 3.4rem;
 					">Object present: </h5></div>
-					<div class="col s2 offset-s4"><h4 style="color:Red;">`+"Yes"+percent+`</h4></div>
+					<div class="col s2 offset-s4"><h4 style="color:Red;">`+"Yes-"+percent+`%</h4></div>
 					</div>
 					
 					<div class="col s6"><h5 style="line-height: 3.4rem;">
