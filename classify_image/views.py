@@ -18,9 +18,9 @@ from django.shortcuts import render
 MAX_K = 10
 dir_path=os.getcwd()
 
-TF_GRAPH = "{base_path}/inception_model/graph.pb".format(
+TF_GRAPH = "{base_path}/inception_model/retrained_graph.pb".format(
     base_path=os.path.abspath(os.path.dirname(__file__)))
-TF_LABELS = "{base_path}/inception_model/labels.txt".format(
+TF_LABELS = "{base_path}/inception_model/retrained_labels.txt".format(
     base_path=os.path.abspath(os.path.dirname(__file__)))
 
 
