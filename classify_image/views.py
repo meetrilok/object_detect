@@ -90,6 +90,8 @@ def classify_api(request):
             data["confidence"] = {}
             for res in classify_result:
                 data["confidence"][res[0]] = float(res[1])
+                print("Confidence is")
+                print(data["confidence"][res[0]])
         #else:
         #    data["success"]= False
             
