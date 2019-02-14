@@ -32,7 +32,8 @@ ALLOWED_HOSTS = [
     '40.84.128.194',
     'bottledetect007.southcentralus.cloudapp.azure.com',
     'bottledetect007.com',
-    'ai-demo.byteridge.com'
+    'ai-demo.byteridge.com',
+    '13.65.33.49/'
 ]
 
 # Application definition
